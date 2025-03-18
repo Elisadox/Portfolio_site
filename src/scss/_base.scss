@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  display: block;
+}
+
+body {
+  background-color: #000;
+}
+
+.titre_portfolio {
+  color: #fff;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+  font-family: "Last Draft";
+  font-size: 258px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.of_elisa {
+  color: #000;
+  font-family: "Last Draft";
+  font-size: 124px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.lien_pink {
+  color: rgba(255, 114, 224, 0.95);
+  text-align: center;
+  font-family: "Impact Label Reversed";
+  font-size: 68px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.lien_white {
+  color: #fff;
+  text-align: center;
+  font-family: "Impact Label Reversed";
+  font-size: 68px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.nav-home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  align-self: stretch;
+  margin-top: 140px;
+}
