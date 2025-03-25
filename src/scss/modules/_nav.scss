@@ -1,0 +1,13 @@
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.nav-texte {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 400;
+}
+.dark .nav-texte {
+  color: white;
+}

@@ -9,15 +9,29 @@
   background-color: rgba(86, 61, 124, 0.15);
   border: 1px solid rgba(86, 61, 124, 0.2);
 }
-.pink-rectangle {
+.l-pink-rectangle {
   border-radius: 111px;
   background: rgba(255, 114, 224, 0.95);
   margin-top: 32px;
   margin-right: 42px;
   margin-left: 42px;
 }
-.small_background {
+.l-small_background {
   background: #f26cd5;
   width: 1199px;
   height: 52px;
+}
+.backgroung {
+  padding-bottom: 50px;
+
+  border-radius: 111px;
+  background: rgba(0, 0, 0, 0.95);
+}
+.l-pink {
+  background: #f26cd5;
+}
+.l-me-small {
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }

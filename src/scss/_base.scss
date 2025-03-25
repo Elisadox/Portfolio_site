@@ -15,6 +15,7 @@ video {
 
 body {
   background-color: #000;
+  font-family: "Impact Label Reversed";
 }
 
 .titre_portfolio {
@@ -61,4 +62,107 @@ body {
   gap: 30px;
   align-self: stretch;
   margin-top: 140px;
+}
+
+.year-text {
+  color: #fff;
+  font-family: "Impact Label Reversed";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.title-text {
+  color: #fff;
+  font-family: "Impact Label Reversed";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.main-title {
+  color: #fff;
+  font-family: "Impact Label Reversed";
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 50px;
+}
+.title-photo {
+  color: #fff;
+  font-family: "Impact Label Reversed";
+  font-size: 68px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.pic {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 25px;
+}
+.description {
+  color: rgba(255, 255, 255, 0.95);
+  font-family: "Impact Label Reversed";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  width: 1020px;
+  align-items: center;
+  gap: 137px;
+  flex-shrink: 0;
+}
+.description-2 {
+  display: flex;
+  width: 735px;
+  align-items: center;
+  gap: 193px;
+  color: rgba(255, 255, 255, 0.95);
+  font-family: "Impact Label Reversed";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.sous-texte {
+  color: #fff;
+  font-family: "Impact Label Reversed";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.title-illustration {
+  color: #fff;
+  font-family: "Impact Label Reversed";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.sous-title-illustration {
+  color: #fff;
+  font-family: "Impact Label Reversed";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.backgroung-illustration-1 {
+  background: #111924;
+  width: 1116px;
+  height: 648px;
+}
+.backgroung-illustration-2 {
+  width: 1116px;
+  height: 648px;
+  background: #6a4892;
+}
+.backgroung-illustration-3 {
+  width: 1116px;
+  height: 648px;
+  background: #fdbe31;
 }
