@@ -1,47 +1,32 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-a {
-  color: inherit;
-}
-
-img,
-video {
-  display: block;
-  max-width: 100%;
-}
-
-body {
-  background-color: #000;
-  font-family: "Impact Label Reversed";
-}
-
-.title-text {
+.illustration-title {
   color: #fff;
   font-family: "Impact Label Reversed";
   font-size: 48px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-left: 17px;
 }
-.main-title {
-  color: #fff;
-  font-family: "Impact Label Reversed";
-  font-size: 70px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  margin-top: 50px;
-}
-
-.sous-texte {
+.illustration-sous-title {
   color: #fff;
   font-family: "Impact Label Reversed";
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-left: 20px;
+}
+.illustration-title-photo {
+  color: #fff;
+  font-family: "Impact Label Reversed";
+  font-size: 68px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.illustration-jazz {
+  margin-right: 200px;
+}
+.illustration-exemple {
+  gap: 100px;
 }

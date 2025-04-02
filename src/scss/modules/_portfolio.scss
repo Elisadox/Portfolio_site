@@ -1,0 +1,27 @@
+.portfolio-title {
+  color: #fff;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+  font-family: "Last Draft";
+  font-size: 258px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.portfolio-of-elisa {
+  color: #000;
+  font-family: "Last Draft";
+  font-size: 124px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.portfolio-nav-home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  align-self: stretch;
+  margin-top: 140px;
+}

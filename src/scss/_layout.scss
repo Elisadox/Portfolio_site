@@ -4,10 +4,6 @@
 
 .row > .col,
 .row > [class^="col-"] {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: rgba(86, 61, 124, 0.15);
-  border: 1px solid rgba(86, 61, 124, 0.2);
 }
 .l-pink-rectangle {
   border-radius: 111px;
@@ -21,17 +17,26 @@
   width: 1199px;
   height: 52px;
 }
-.backgroung {
+.l-backgroung {
   padding-bottom: 50px;
-
   border-radius: 111px;
   background: rgba(0, 0, 0, 0.95);
 }
 .l-pink {
   background: #f26cd5;
+  margin-top: 50px;
 }
 .l-me-small {
   position: absolute;
   left: 0;
   bottom: 0;
+}
+.l-backgroung-illustration-1 {
+  background: #111924;
+}
+.l-backgroung-illustration-2 {
+  background: #6a4892;
+}
+.l-backgroung-illustration-3 {
+  background: #fdbe31;
 }
