@@ -1,12 +1,9 @@
 .portfolio-title {
   color: #fff;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #000;
-  font-family: "Last Draft";
-  font-size: 258px;
+  font-family: Koulen;
+  font-size: 185px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
 }
 .portfolio-of-elisa {
   color: #000;
@@ -14,7 +11,6 @@
   font-size: 124px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
 }
 .portfolio-nav-home {
   display: flex;
@@ -24,4 +20,11 @@
   gap: 30px;
   align-self: stretch;
   margin-top: 140px;
+}
+.portfolio-me {
+  transition: transform 0.2s;
+}
+.portfolio-me:hover {
+  transform: scale(1.2);
+  transform: rotate(10deg);
 }

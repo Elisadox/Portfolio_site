@@ -28,3 +28,9 @@
   font-weight: 400;
   line-height: normal;
 }
+.photography-picture {
+  transition: transform 0.2s;
+}
+.photography-picture:hover {
+  transform: scale(1.1);
+}

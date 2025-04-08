@@ -11,12 +11,17 @@
 .text-title {
   color: #fff;
   font-family: "Impact Label Reversed";
-  font-size: 48px;
+  font-size: 52px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  transition: transform 0.2s;
+  transition: color 0.2s 0.4s ease-in-out;
 }
-
+.text-title:hover {
+  transform: scale(1.2);
+  color: rgb(245, 120, 202);
+}
 .texte-sous {
   color: #040303;
   font-family: "Impact Label Reversed";

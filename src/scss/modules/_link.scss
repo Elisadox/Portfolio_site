@@ -1,12 +1,3 @@
-.link_pink {
-  color: rgba(255, 114, 224, 0.95);
-  text-align: center;
-  font-family: "Impact Label Reversed";
-  font-size: 68px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
 .link_white {
   color: #fff;
   text-align: center;
@@ -15,4 +6,11 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  transition-property: color;
+  transition-duration: 0.2s;
+  transition: transform 0.2s;
+}
+.link_white:hover {
+  color: rgb(255, 0, 153);
+  transform: scale(1.2);
 }
