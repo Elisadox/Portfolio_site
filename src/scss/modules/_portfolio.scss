@@ -3,12 +3,29 @@
   font-family: Koulen;
   font-size: 185px;
   font-style: normal;
+  line-height: 300px;
 }
 .portfolio-of-elisa {
   color: #000;
   font-family: "Last Draft";
   font-size: 124px;
   font-style: normal;
+  line-height: 0px;
+}
+.portfolio-me-one {
+  transition: transform 0.2s;
+}
+
+.portfolio-me-one:hover {
+  transform: scale(1.2);
+  transform: rotate(10deg);
+}
+.portfolio-me-two {
+  transition: transform 0.2s;
+}
+.portfolio-me-two:hover {
+  transform: scale(1.2);
+  transform: rotate(10deg);
 }
 .portfolio-nav-home {
   display: flex;
@@ -18,11 +35,4 @@
   gap: 30px;
   align-self: stretch;
   margin-top: 140px;
-}
-.portfolio-me {
-  transition: transform 0.2s;
-}
-.portfolio-me:hover {
-  transform: scale(1.2);
-  transform: rotate(10deg);
 }

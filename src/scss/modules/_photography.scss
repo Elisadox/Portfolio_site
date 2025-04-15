@@ -1,3 +1,12 @@
+.photography-title-photo {
+  color: #fff;
+  font-family: "Impact Label Reversed";
+  font-size: 68px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 .photography-description {
   display: flex;
   align-items: center;
@@ -9,6 +18,12 @@
   font-weight: 400;
   line-height: normal;
 }
+.photography-picture {
+  transition: transform 0.2s;
+}
+.photography-picture:hover {
+  transform: scale(1.1);
+}
 .photography-description-2 {
   display: flex;
   align-items: center;
@@ -19,18 +34,4 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-}
-.photography-title-photo {
-  color: #fff;
-  font-family: "Impact Label Reversed";
-  font-size: 68px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-.photography-picture {
-  transition: transform 0.2s;
-}
-.photography-picture:hover {
-  transform: scale(1.1);
 }

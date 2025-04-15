@@ -22,6 +22,15 @@
   transform: scale(1.2);
   color: rgb(245, 120, 202);
 }
+.texte-photo {
+  color: #fff;
+  font-family: "Impact Label Reversed";
+  font-size: 68px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 .texte-sous {
   color: #ffffff;
   font-family: "Impact Label Reversed";
@@ -30,13 +39,4 @@
   font-weight: 400;
   line-height: normal;
   margin-bottom: 10px;
-}
-
-.texte-photo {
-  color: #fff;
-  font-family: "Impact Label Reversed";
-  font-size: 68px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
 }
