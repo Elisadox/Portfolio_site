@@ -17,6 +17,8 @@
   line-height: normal;
   transition: transform 0.2s;
   transition: color 0.2s 0.4s ease-in-out;
+  margin-left: 50px;
+  white-space: nowrap;
 }
 .text-title:hover {
   transform: scale(1.2);

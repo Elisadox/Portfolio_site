@@ -9,6 +9,7 @@
   font-weight: 400;
   transition: transform 0.2s;
   margin-top: 15px;
+  white-space: nowrap;
 }
 .nav-texte:hover {
   transform: scale(1.2);
@@ -18,7 +19,7 @@
   transition: transform 0.2s;
 }
 .nav-logo:hover {
-  transform: scale(1.2);
+  transform: scale(2.5);
 }
 .dark .nav-texte {
   color: white;
